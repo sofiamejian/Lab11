@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #ecd1eb;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.agents-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.agent {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.agent img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.agent h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.agent p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.agent ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 13px;
+}
